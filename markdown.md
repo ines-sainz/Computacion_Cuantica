@@ -70,7 +70,7 @@ La esfera de Bloch es una representación habitual de los estados de un qubit. E
 | Característica | Computación clásica | Computación cuántica |
 |---|---|---|
 | Unidad básica | Bit | Qubit |
-| Estados básicos | `0` o `1` | `|0⟩` o `|1⟩`, además de superposiciones |
+| Estados básicos | `0` o `1` | &#124;0&#10217; o &#124;1&#10217;, además de superposiciones |
 | Fundamento | Electrónica digital y física clásica a nivel lógico | Mecánica cuántica |
 | Operaciones | Puertas lógicas clásicas | Puertas cuánticas |
 | Representación matemática | Valores binarios y lógica booleana | Vectores, matrices y amplitudes complejas |
