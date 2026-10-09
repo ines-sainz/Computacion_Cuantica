@@ -53,9 +53,7 @@ $|\psi\rangle = \alpha|0\rangle+\beta|1\rangle$
 * $\alpha$ : *amplitud de probabilidad, puede ser un número complejo.*
 * $\beta$ : *amplitud de probabilidad, pueden ser un número complejo.*
 
-Para un estado [normalizado](docs/detalles.md) tiene que cumplir:
-
-$|\alpha|^2+|\beta|^2=1$
+Para un estado [normalizado](docs/detalles.md) tiene que cumplir: $|\alpha|^2+|\beta|^2=1$
 
 Cuando medimos el qubit obtenemos `0` o `1`. Las amplitudes permiten calcular las probabilidades de obtener cada resultado.
 
@@ -72,7 +70,7 @@ La esfera de Bloch es una representación habitual de los estados de un qubit. E
 | Característica | Computación clásica | Computación cuántica |
 |---|---|---|
 | Unidad básica | Bit | Qubit |
-| Estados básicos | `0` o `1` | $$|0\rangle$$ o $$|1\rangle$$, además de superposiciones |
+| Estados básicos | `0` o `1` | `|0⟩` o `|1⟩`, además de superposiciones |
 | Fundamento | Electrónica digital y física clásica a nivel lógico | Mecánica cuántica |
 | Operaciones | Puertas lógicas clásicas | Puertas cuánticas |
 | Representación matemática | Valores binarios y lógica booleana | Vectores, matrices y amplitudes complejas |
