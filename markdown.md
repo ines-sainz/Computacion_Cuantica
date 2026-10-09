@@ -72,7 +72,7 @@ La esfera de Bloch es una representación habitual de los estados de un qubit. E
 | Característica | Computación clásica | Computación cuántica |
 |---|---|---|
 | Unidad básica | Bit | Qubit |
-| Estados básicos | `0` o `1` | \(|0\rangle\) o \(|1\rangle\), además de superposiciones |
+| Estados básicos | `0` o `1` | $$|0\rangle$$ o $$|1\rangle$$, además de superposiciones |
 | Fundamento | Electrónica digital y física clásica a nivel lógico | Mecánica cuántica |
 | Operaciones | Puertas lógicas clásicas | Puertas cuánticas |
 | Representación matemática | Valores binarios y lógica booleana | Vectores, matrices y amplitudes complejas |
@@ -91,11 +91,9 @@ En Computación Clásica representamos un bit mediante uno de estos dos estados:
 
 En Computación Cuántica se representan los estados básicos mediante vectores:
 
-$
-|0\rangle = \begin{pmatrix} 1 \\ 0 \end{pmatrix}
+$|0\rangle = \begin{pmatrix} 1 \\ 0 \end{pmatrix}
 \qquad
-|1\rangle = \begin{pmatrix} 0 \\ 1 \end{pmatrix}
-$
+|1\rangle = \begin{pmatrix} 0 \\ 1 \end{pmatrix}$
 
 ### Amplitudes de probabilidad
 
@@ -103,31 +101,27 @@ Para obtener la probabilidad de un resultado, se calcula el módulo de su amplit
 
 Si tenemos un qubit en el estado:
 
-$
-|\psi\rangle = \frac{1}{\sqrt{2}}|0\rangle
+$|\psi\rangle = \frac{1}{\sqrt{2}}|0\rangle
 +
-\frac{1}{\sqrt{2}}|1\rangle
-$
+\frac{1}{\sqrt{2}}|1\rangle$
 
 Las amplitudes son:
 
-$
-\alpha=\frac{1}{\sqrt{2}}
+$\alpha=\frac{1}{\sqrt{2}}
 \qquad
-\beta=\frac{1}{\sqrt{2}}
-$
+\beta=\frac{1}{\sqrt{2}}$
 
 Y las probabilidades son:
 
-$ P(0)=|\alpha|^2=\frac{1}{2} $
+$P(0)=|\alpha|^2=\frac{1}{2}$
 
-$ P(1)=|\beta|^2=\frac{1}{2} $
+$P(1)=|\beta|^2=\frac{1}{2}$
 
 Al medir un qubit tenemos un 50% de probabilidad de obtener un `0` y un 50% de probabilidad de obtener un `1`.
 
 Para que ambos resultados tengan la misma probabilidad, las dos amplitudes tienen el mismo módulo. La condición de normalización es:
 
-$ |\alpha|^2+|\beta|^2=1 $
+$|\alpha|^2+|\beta|^2=1$
 
 ## Criptografía en relación al RSA
 
