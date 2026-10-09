@@ -47,13 +47,24 @@ Los estados básicos se representan con:
 
 Un qubit en superposición se puede escribir como:
 
-$|\psi\rangle = \alpha|0\rangle+\beta|1\rangle$
+$$|\psi\rangle = \alpha|0\rangle+\beta|1\rangle$$
 
-* $|\psi\rangle$ : *estado genérico.* 
+* *Superposición de un qubit*
+* $|\psi\rangle$ : *estado del qubit.* 
 * $\alpha$ : *amplitud de probabilidad, puede ser un número complejo.*
+* $\|0\rangle$ : *estado 0.*
+* $\|1\rangle$ : *estado 1.*
 * $\beta$ : *amplitud de probabilidad, pueden ser un número complejo.*
 
-Para un estado [normalizado](docs/detalles.md) tiene que cumplir: $|\alpha|^2+|\beta|^2=1$
+Para un estado [normalizado](docs/detalles.md) tiene que cumplir: 
+
+$$|\alpha|^2+|\beta|^2=1$$
+
+* *Condición de normalización*
+* $\alpha$ : *amplitud alfa.*
+* $\|\alpha\|^2$ : *módulo de alfa al cuadrado.*
+* $\beta$ : *amplitud beta.*
+* $\|\beta\|^2$ : *módulo de beta al cuadrado.*
 
 Cuando medimos el qubit obtenemos `0` o `1`. Las amplitudes permiten calcular las probabilidades de obtener cada resultado.
 
@@ -87,11 +98,15 @@ Para entender la computación cuántica se necesitan conecptos de álgebra linea
 
 En Computación Clásica representamos un bit mediante uno de estos dos estados: `0` o `1`.
 
-En Computación Cuántica se representan los estados básicos mediante vectores:
+En Computación Cuántica se representan los estados básicos mediante vectores.
 
-$|0\rangle = \begin{pmatrix} 1 \\ 0 \end{pmatrix}
-\qquad
-|1\rangle = \begin{pmatrix} 0 \\ 1 \end{pmatrix}$
+El estado cero se representa mediante el siguiente vector:
+
+$$|0\rangle = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$$
+
+El estado uno se representa mediante el siguiente vector:
+
+$$|1\rangle = \begin{pmatrix} 0 \\ 1 \end{pmatrix}$$
 
 ### Amplitudes de probabilidad
 
@@ -99,27 +114,45 @@ Para obtener la probabilidad de un resultado, se calcula el módulo de su amplit
 
 Si tenemos un qubit en el estado:
 
-$|\psi\rangle = \frac{1}{\sqrt{2}}|0\rangle
-+
-\frac{1}{\sqrt{2}}|1\rangle$
+$$|\psi\rangle = \frac{1}{\sqrt{2}}|0\rangle+\frac{1}{\sqrt{2}}|1\rangle$$
+
+* *Estado del qubit:*
+* $|\psi\rangle$: *estado del qubit.*
+* $\frac{1}{\sqrt{2}}$: *amplitud asociada a cada estado básico.*
+* $|0\rangle$: *estado cero.*
+* $|1\rangle$: *estado uno.*
 
 Las amplitudes son:
 
-$\alpha=\frac{1}{\sqrt{2}}
-\qquad
-\beta=\frac{1}{\sqrt{2}}$
+$$\alpha=\frac{1}{\sqrt{2}}\qquad\beta=\frac{1}{\sqrt{2}}$$
+
+* $\alpha$ : *amplitud alfa.*
+* $\beta$ : *amplitud beta.*
+* $\frac{1}{\sqrt{2}}$: *amplitud asociada a cada estado básico.*
 
 Y las probabilidades son:
 
-$P(0)=|\alpha|^2=\frac{1}{2}$
+$$P(0)=|\alpha|^2=\frac{1}{2}$$
 
-$P(1)=|\beta|^2=\frac{1}{2}$
+$$P(1)=|\beta|^2=\frac{1}{2}$$
+
+*Probabilidad de obtener 0:*
+* $P(0)$: *probabilidad de obtener el resultado 0.*
+* $\alpha$: *amplitud asociada al estado cero.*
+* $|\alpha|^2$: *módulo de alfa al cuadrado.*
+* $\frac{1}{2}$: *probabilidad del 50 %.*
+
+*Probabilidad de obtener 1:*
+* $P(1)$: *probabilidad de obtener el resultado 1.*
+* $\beta$: *amplitud asociada al estado uno.*
+* $|\beta|^2$: *módulo de beta al cuadrado.*
+* $\frac{1}{2}$: *probabilidad del 50 %.*
 
 Al medir un qubit tenemos un 50% de probabilidad de obtener un `0` y un 50% de probabilidad de obtener un `1`.
 
 Para que ambos resultados tengan la misma probabilidad, las dos amplitudes tienen el mismo módulo. La condición de normalización es:
 
-$|\alpha|^2+|\beta|^2=1$
+$$|\alpha|^2+|\beta|^2=1 \qquad == \qquad \frac{1}{2} + \frac{1}{2} = 1$$
 
 ## Criptografía en relación al RSA
 
