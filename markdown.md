@@ -72,7 +72,7 @@ Cuando medimos el qubit obtenemos `0` o `1`. Las amplitudes permiten calcular la
 
 ### 📊 Visualización de un qubit
 
-![Esfera de Bloch, representación visual de los estados de un qubit](https://commons.wikimedia.org/wiki/Special:FilePath/Bloch_sphere.svg)
+![Esfera de Bloch, representación visual de los estados de un qubit](https://www.shutterstock.com/image-illustration/quantum-computing-bloch-sphere-vector-260nw-2703042523.jpg)
 
 La esfera de Bloch es una representación habitual de los estados de un qubit. Es una forma de visualizar conceptos que no tienen un equivalente directo en un bit clásico.
 
