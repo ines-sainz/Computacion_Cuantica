@@ -33,6 +33,21 @@ Representan estados físicos del sistema electrónico que se interpretan como in
 
 ![Tabla de verdad de las puertas lógicas](assets/tablas_de_verdad.png)
 
+```C
+// Esto es un ejemplo de la puerta lógica AND
+int and_0_0 = 0 & 0; // 0000 & 0000 = 0000
+// Esto es un ejemplo de la puerta lógica OR
+int or_0_0 = 0 | 0; // 0000 | 0000 = 0000
+// Esto es un ejemplo de la puerta lógica XOR
+int xor_0_0 = 0 ^ 0; // 0000 ^ 0000 = 0000
+// Esto es un ejemplo de la puerta lógica NOT
+int not_0 = ~0; // ~ 0000 = 1111
+// Esto es un ejemplo de LEFT SHIFT
+int left_shift_1 = 1 << 1; // 0001 << 1 = 0010
+// Esto es un ejemplo de RIGHT SHIFT
+int right_shift_1 = 2 >> 1; // 0010 >> 1 = 0001
+```
+
 ## Computación Cuántica
 
 La computación cuántica usa principios de la física cuántica para procesar información.
